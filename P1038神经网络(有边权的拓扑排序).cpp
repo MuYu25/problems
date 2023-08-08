@@ -7,6 +7,7 @@ const int N = 105;
 int n, m, c[N], in[N], head[N], cnt;
 bool vis[N], out[N];
 
+// 链式前向星
 struct node{
 	// e[i].next 指向下一个出发点为i的路径。
 	int to, weight, next;
