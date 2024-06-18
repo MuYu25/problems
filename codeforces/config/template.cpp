@@ -8,18 +8,22 @@ typedef long long ll;
 #define all(x) x.begin(), x.end()
 #define rall(x) x.rbegin(), x.rend()
 #define pii pair<int, int>
+#define x first
+#define y second
+
 
 void solve(){
-    
+	
 }
 
 int main(){
 	ios::sync_with_stdio(false);
-	cin.tie(nullptr);
-	int T;
-	// T = 1;
-	cin >> T;
-	while(T--){
+	cin.tie(nullptr), cout.tie(nullptr); // 交互题，要注释掉这个
+	int TT;
+	// TT = 1;
+	cin >> TT;
+	while(TT--){
 		solve();
 	}
+	return 0;
 }
